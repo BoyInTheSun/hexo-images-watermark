@@ -1,18 +1,18 @@
 {
-  "name": "hexo-images-watermark",
+  "name": "hexo-images-watermark-bits",
   "version": "2.3.0",
   "description": "用于Hexo构建静态博客时，本地对文章图片添加水印",
   "main": "index.js",
   "scripts": {
     "test": "eslint src/*.js"
   },
-  "homepage": "https://spiritlingpub.github.io/hexo-images-watermark/",
+  "homepage": "https://github.com/BoyInTheSun/hexo-images-watermark",
   "repository": {
     "type": "https",
-    "url": "https://github.com/SpiritLingPub/hexo-images-watermark"
+    "url": "https://github.com/BoyInTheSun/hexo-images-watermark"
   },
   "bugs": {
-    "url": "https://github.com/SpiritLingPub/hexo-images-watermark/issues"
+    "url": "https://github.com/BoyInTheSun/hexo-images-watermark/issues"
   },
   "keywords": [
     "hexo",
@@ -20,7 +20,7 @@
     "watermark",
     "local"
   ],
-  "author": "SpiritLing",
+  "author": "BoyInTheSun",
   "license": "GPL-3.0-only",
   "engines": {
     "node": ">=10"

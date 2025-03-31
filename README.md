@@ -1,3 +1,9 @@
+本仓库forked自https://github.com/SpiritLingPub/hexo-images-watermark，修复了https://github.com/SpiritLingPub/hexo-images-watermark/issues/43。已pr修复，但似乎作者已经停止维护，故另起炉灶。
+
+readme仅修改了安装命令。
+
+---
+
 <div align="center">
 
 # hexo-images-watermark
@@ -19,13 +25,13 @@
 使用 `npm` 安装插件
 
 ```shell
-npm install hexo-images-watermark
+npm install hexo-images-watermark-bits
 ```
 
-使用 `yarn` 安装插件
+~~使用 `yarn` 安装插件~~未发布
 
 ```shell
-yarn add hexo-images-watermark
+yarn add hexo-images-watermark-bits
 ```
 
 在站点配置文件 `_config.yml` 中进行如下配置：
