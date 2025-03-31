@@ -1,4 +1,4 @@
-本仓库forked自https://github.com/SpiritLingPub/hexo-images-watermark，修复了https://github.com/SpiritLingPub/hexo-images-watermark/issues/43。已pr修复，但似乎作者已经停止维护，故另起炉灶。
+本仓库forked自https://github.com/SpiritLingPub/hexo-images-watermark ，修复了https://github.com/SpiritLingPub/hexo-images-watermark/issues/43 。已pr修复，但似乎作者已经停止维护，故另起炉灶。
 
 readme仅修改了安装命令。
 
