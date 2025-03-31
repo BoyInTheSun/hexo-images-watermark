@@ -63,6 +63,12 @@ async function ImageWatermark() {
                 matchBase: true
             });
         });
+        const allImgFiles = route.list().filter(file => {
+             return minimatch(file, '*.{' + staticTargetFile.join(',') + '}', {
+                 nocase: true,
+                 matchBase: true
+             });
+         });
         // 无论是图片还是文字都全部转为图片再转为buffer，水印图片的buffer
         if (options.imageEnable) {
             watermarkBuffer = await utils.GetWatermarkImageBuffer(allImgFiles, options.watermarkImage, route);
